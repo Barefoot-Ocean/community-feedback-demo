@@ -1,0 +1,41 @@
+/* Styles for screens smaller than 1200px */
+@media screen and (max-width: 1200px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content .list {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .content .text-content {
+    width: 90%;
+  }
+
+}
+
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .button-controlles-one, .button-controlles-two, .button-controlles-three {
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px;
+  }
+
+  .filter-block-card-input-style {
+    width: 100% !important;
+  }
+
+  // toggle button style
+  #app-filters-family_level_grouping > div > div {
+    width: 100% !important;
+  }
+
+  // apply filter button style
+  #app-filters-apply_filter > div > button {
+    width: 100% !important;
+  }
+}

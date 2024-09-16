@@ -1,0 +1,94 @@
+span.species-group {
+  width: 44px;
+  height: 30px;
+  display: inline-block;
+}
+img.species-group {
+  width: 30px;
+}
+.species-group {
+  background: url(https://primefaces.org/cdn/primereact/images/flag/flags_responsive.png)
+    no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-all {
+  background: url("./assets/species_group/fishgroup.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-barnacle {
+  background: url("./assets/species_group/barnacle.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-bivalve {
+  background: url("./assets/species_group/bivalve.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-crab {
+  background: url("./assets/species_group/crab.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-cuttlefish {
+  background: url("./assets/species_group/cuttlefish.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-eel {
+  background: url("./assets/species_group/eel.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-finfish {
+  background: url("./assets/species_group/finfish.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-gastropod {
+  background: url("./assets/species_group/snail.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-lobster {
+  background: url("./assets/species_group/lobster.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-octopus {
+  background: url("./assets/species_group/octopus.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-ray {
+  background: url("./assets/species_group/manta-ray.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-sea_cucumber {
+  background: url("./assets/species_group/sea-cucumber.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-sea_urchin {
+  background: url("./assets/species_group/sea-urchin.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-shark {
+  background: url("./assets/species_group/shark.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-shrimp {
+  background: url("./assets/species_group/shrimp.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.species-group-squid {
+  background: url("./assets/species_group/squid.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}

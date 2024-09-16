@@ -1,0 +1,65 @@
+@import 'icons';
+@import 'tab_block';
+@import 'utils';
+@import 'filter';
+@import 'small_screen_responsive';
+
+::selection {
+  background: #06b6d4;
+  color: #fff;
+}
+
+/* Filter Block Style */
+.block-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Tab Content */
+// Gender container
+.gender-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+// Chart container
+.tab-chart-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title-facet {
+  display: flex;
+  justify-content: space-around;
+  color: transparent;
+}
+
+/* If the .load-container has display: none, apply white color to .header-facet */
+:has(.load-container[style*="display: none;"]) .header-title-facet {
+    color: #000000;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+/* Top 5 gear block style */
+.cell-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.top-five-gear-percentage {
+  color: #048ca4 !important;
+  background: #06b6d438;
+  padding: 7px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+

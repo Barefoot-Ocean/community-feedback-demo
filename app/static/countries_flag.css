@@ -1,0 +1,73 @@
+span.country-flag {
+  width: 44px;
+  height: 30px;
+  display: inline-block;
+}
+img.country-flag {
+  width: 30px;
+}
+.country-flag {
+  background: url(https://primefaces.org/cdn/primereact/images/flag/flags_responsive.png)
+    no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.country-flag-blz {
+  background: url("./assets/countries_flag/belize.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-cv {
+  background: url("./assets/countries_flag/cape-verde.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-fsm {
+  background: url("./assets/countries_flag/fsm.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-idn {
+  background: url("./assets/countries_flag/indonesia.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-ken {
+  background: url("./assets/countries_flag/kenya.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-mdg {
+  background: url("./assets/countries_flag/madagascar.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-phl {
+  background: url("./assets/countries_flag/philippines.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-sen {
+  background: url("./assets/countries_flag/senegal.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-tl {
+  background: url("./assets/countries_flag/east-timor.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.country-flag-tza {
+  background: url("./assets/countries_flag/tanzania.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}

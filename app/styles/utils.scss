@@ -1,0 +1,41 @@
+// Loader Style
+.load-container {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100% !important;
+  height: 100% !important;
+}
+
+// Exit Button Style
+.exit-button {
+  bottom: 15px;
+  left: 15px;
+  z-index: 99999 !important;
+  height: 50px;
+  width: 50px;
+  background: #fc7ea6;
+  border-radius: 50%;
+  display: flex;
+  position: fixed;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  cursor: pointer;
+}
+
+// Scroll to Filter Button Style
+.scroll-to-filter-button {
+  bottom: 80px;
+  left: 15px;
+  padding: 10px;
+  z-index: 99999 !important;
+  height: 50px;
+  width: 50px;
+  background: #06b6d4;
+  border-radius: 50%;
+  display: flex;
+  position: fixed;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  cursor: pointer;
+}

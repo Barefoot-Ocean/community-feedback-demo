@@ -1,0 +1,116 @@
+// Main block - Tab Logic
+.main-block-container {
+  max-width: 1440px;
+  width: 90%;
+  padding: 40px 50px 40px 40px;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.main-block-container .topic {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .list {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  margin-right: 50px;
+  position: relative;
+}
+.content .list label {
+  height: 60px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 60px;
+  cursor: pointer;
+  padding-left: 25px;
+  transition: all 0.5s ease;
+  color: #333;
+  z-index: 12;
+}
+#gender_distribution__tabitem:checked ~ .list label.gender_distribution__tabitem,
+#catch_income__tabitem:checked ~ .list label.catch_income__tabitem,
+#catch_composition__tabitem:checked ~ .list label.catch_composition__tabitem,
+#top_gear__tabitem:checked ~ .list label.top_gear__tabitem,
+#average_length__tabitem:checked ~ .list label.average_length__tabitem,
+#adults_catch__tabitem:checked ~ .list label.adults_catch__tabitem {
+  color: #fff;
+}
+.content .list label:hover {
+  color: #06b6d4;
+}
+.content .slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  border-radius: 12px;
+  background: #06b6d4;
+  transition: all 0.4s ease;
+}
+#gender_distribution__tabitem:checked ~ .list .slider {
+  top: 0;
+}
+#catch_income__tabitem:checked ~ .list .slider {
+  top: 60px;
+}
+#catch_composition__tabitem:checked ~ .list .slider {
+  top: 120px;
+}
+#top_gear__tabitem:checked ~ .list .slider {
+  top: 180px;
+}
+#average_length__tabitem:checked ~ .list .slider {
+  top: 240px;
+}
+#adults_catch__tabitem:checked ~ .list .slider {
+  top: 300px;
+}
+.content .text-content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+.content .text {
+  display: none;
+  width: 100%;
+}
+.content .text .title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.content .text p {
+  text-align: justify;
+}
+.content .text-content .gender_distribution__tabitem {
+  display: block;
+}
+#gender_distribution__tabitem:checked ~ .text-content .gender_distribution__tabitem,
+#catch_income__tabitem:checked ~ .text-content .catch_income__tabitem,
+#catch_composition__tabitem:checked ~ .text-content .catch_composition__tabitem,
+#top_gear__tabitem:checked ~ .text-content .top_gear__tabitem,
+#average_length__tabitem:checked ~ .text-content .average_length__tabitem,
+#adults_catch__tabitem:checked ~ .text-content .adults_catch__tabitem {
+  display: block;
+}
+#catch_income__tabitem:checked ~ .text-content .gender_distribution__tabitem,
+#catch_composition__tabitem:checked ~ .text-content .gender_distribution__tabitem,
+#top_gear__tabitem:checked ~ .text-content .gender_distribution__tabitem,
+#average_length__tabitem:checked ~ .text-content .gender_distribution__tabitem,
+#adults_catch__tabitem:checked ~ .text-content .gender_distribution__tabitem {
+  display: none;
+}
+.content input {
+  display: none;
+}
+

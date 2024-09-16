@@ -1,0 +1,74 @@
+span.gear-type {
+  width: 44px;
+  height: 30px;
+  display: inline-block;
+}
+img.gear-type {
+  width: 30px;
+}
+.gear-type {
+  background: url(https://primefaces.org/cdn/primereact/images/flag/flags_responsive.png)
+    no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-electrofishing {
+  background: url("./assets/gear_type/electrofishing.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-hand_picking {
+  background: url("./assets/gear_type/hand_picking.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-handline {
+  background: url("./assets/gear_type/handline.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-hook {
+  background: url("./assets/gear_type/hook.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-longline {
+  background: url("./assets/gear_type/longline.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-net {
+  background: url("./assets/gear_type/net.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-spear_gun {
+  background: url("./assets/gear_type/spear_gun.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-spear {
+  background: url("./assets/gear_type/spear.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-trap {
+  background: url("./assets/gear_type/trap.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-trawl {
+  background: url("./assets/gear_type/trawl.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-trolling {
+  background: url("./assets/gear_type/trolling.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.gear-type-unknown {
+  background: url("./assets/gear_type/unknown.png") no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+}

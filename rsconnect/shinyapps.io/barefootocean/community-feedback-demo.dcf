@@ -1,0 +1,12 @@
+name: community-feedback-demo
+title: community-feedback-demo
+username: barefootocean
+account: barefootocean
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12720460
+bundleId: 9106663
+url: https://barefootocean.shinyapps.io/community-feedback-demo/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
